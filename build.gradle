@@ -6,6 +6,10 @@ repositories {
     mavenCentral()
 }
 
+compileTestJava {
+    options.encoding = 'UTF-8'
+}
+
 dependencies {
     testImplementation(
             'commons-io:commons-io:2.11.0',
